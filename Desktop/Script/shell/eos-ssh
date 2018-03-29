@@ -1,0 +1,144 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+#
+# eossh (eoslib | X)
+# Jean-Matthieu Schaffhauser <jeanmatthieu@apple.com>
+#
+import sys
+import os
+import subprocess
+import argparse
+from eoslib.logger import logger
+logger.disabled=True
+from eoslib import eosdevice
+from eoslib.pyssh import b, b_list, SSH_PROGRAM
+
+def ssh_command(login, host="localhost", port=22):
+    cmd = [SSH_PROGRAM, '-2']
+    cmd += ['-o', 'ConnectionAttempts=3', '-o', 'ConnectTimeout=5']
+    cmd += ['-o', 'UserKnownHostsFile=/dev/null', '-o', 'StrictHostKeyChecking=no']
+    #cmd += ['-o', 'PubkeyAuthentication=no', '-o', 'PreferredAuthentications=password']
+    cmd += ['-l', login]
+    cmd += ['-p', str(port)]
+
+    cmd.append(host)
+    return b_list(cmd)
+
+def env(password):
+    """
+    Retrieve environment variables and replace SSH_AUTH_SOCK
+    if ssh_agent_socket was specified on object creation.
+    """
+    env = os.environ.copy()
+    env['Password'] = password
+    env['SSH_ASKPASS'] = '/AppleInternal/Library/Python/2.7/site-packages/eoslib/pyssh_askpass'
+    env['DISPLAY'] = ':eoslib.display'
+
+    return env
+
+def get_hostname():
+    first_bridge = False
+    selected = 0
+    address= None
+    eOS = None
+    bridgeOS = None
+    cmd_index_start = 1
+    if len(sys.argv) > 1 and sys.argv[1].startswith('fe80::'):
+        address = sys.argv[1]
+        cmd_index_start = 2
+    elif len(sys.argv) == 2 and sys.argv[1] == "-h":
+        usage()
+        sys.exit(0)
+    else:
+        (eOS,bridgeOS) = eosdevice.EOSDevice().available_hosts()
+
+        first_bridge = False
+        selected = 0
+        address= None
+        if len(sys.argv)> 1:
+            if sys.argv[1].startswith('fe80::'):
+                address = sys.argv[1]
+
+            if sys.argv[1] in ("-e"):
+                eOS = None
+                first_bridge=True
+                cmd_index_start = 2
+                invalid_index = True
+                if len(sys.argv) > 2:
+                    invalid_index = False
+                    try:
+                        selected=int(sys.argv[2])
+                        if selected > len(bridgeOS) or selected <= 0:
+                            invalid_index = True
+                        cmd_index_start = 3
+                    except ValueError:
+                        invalid_index = True
+
+                    if invalid_index:
+                        print "Invalid index. Please run eos-ssh -l"
+                        sys.exit(1)
+                elif len(bridgeOS) == 0:
+                    print "There are no external bridgeOS connected to your Mac"
+                    sys.exit(1)
+
+            if sys.argv[1] == "-l":
+                i = 1
+                if eOS:
+                    print "eOS hosts:"
+                    print "{}) {}".format(i, eOS)
+                    if bridgeOS:
+                        print "=============================="
+                if bridgeOS:
+                    print "external bridgeOS hosts:"
+                    for host in bridgeOS:
+                        print "{}) {}".format(i, host)
+                        i+=1
+
+                sys.exit(0)
+
+    if address is not None:
+        hostname = address
+    else:
+        hostname = eOS
+        if hostname is None and (selected > 0 or first_bridge or len(bridgeOS)==1):
+            if (first_bridge and len(bridgeOS)>0) or len(bridgeOS)==1:
+                hostname = bridgeOS[0]
+            elif selected > 0 and selected <= len(bridgeOS):
+                hostname=[selected-1]
+
+    sys.argv = sys.argv[cmd_index_start:]
+    return hostname
+
+def usage():
+    print "eos-ssh interacts with EmbeddedOS connected to your Mac"
+    print "eos-ssh usage:"
+    print "-e [idx]: Connect to the first external brigde detected, the the specified index [idx]"
+    print "-l: List available EmbeddedOS"
+
+def main():
+    hostname = get_hostname()
+
+    if hostname is None:
+        print "eOS/bridgeOS are not availble on your platform"
+        sys.exit(1)
+
+    print "Connecting to {}".format(hostname)
+    ssh_cmd = ssh_command('root', hostname)
+
+    cmd = " ".join(sys.argv)
+    if len(cmd)>0:
+        ssh_cmd.append("/bin/bash")
+        pipe = subprocess.Popen(ssh_cmd,
+                stdin=subprocess.PIPE, env=env('alpine'), preexec_fn=os.setsid)
+
+        try:
+            pipe.communicate(b(cmd))
+            rc = pipe.returncode
+            sys.exit(rc)
+        except KeyboardInterrupt:
+            pipe.kill()
+    else:
+        subprocess.call(ssh_cmd, env=env('alpine'), preexec_fn=os.setsid)
+
+if __name__ == '__main__':
+    main()
