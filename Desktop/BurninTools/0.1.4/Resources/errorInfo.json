@@ -1,0 +1,538 @@
+{
+    "C02WC00GJH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC00AJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "display_test_no_aspm/Display 4120 Banksia TCON and DRAM Bist Suite (Exit code: -1)"
+    ],
+    "C02WC005JH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00PJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC008JH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00EJH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "coordinated_sleep_S0i/Wait for ARM to sleep/29 (Exit code: 3)",
+        "coordinated_sleep_G3S/Wait for ARM to sleep/5 (Exit code: -2)",
+        "coordinated_sleep_G3S/Transition Intel into G3S/5 (Exit code: -2)"
+    ],
+    "C02WC00CJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit code: 1)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)"
+    ],
+    "C02WC001JX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)"
+    ],
+    "C02WC00PJX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "display_test_no_aspm/Display 4120 Banksia TCON and DRAM Bist Suite (Exit code: -1)"
+    ],
+    "C02WC009JX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC008JX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00NJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "coordinated_sleep_S0i/Wait for ARM to sleep4 (Exit code: 3)"
+    ],
+    "C02WC006JX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC003JX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "coordinated_sleep_S0i/Wait for ARM to sleep/21 (Exit code: 3)"
+    ],
+    "C02WC00GJX1N": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00MJX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC007JTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC006JH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00LJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)"
+    ],
+    "C02WC00DJX1N": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00AJX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00KJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC003JTDP": [
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)"
+    ],
+    "C02WC003JH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00KJX1N": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC002JTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00JJX1N": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC009JH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00NJX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC007JX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00EJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC005JTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC009JTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00RJX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00AJH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00SJX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC00TJX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC00JJH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00HJX1N": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00LJX1N": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC004JX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC006JTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)",
+        "display_test_no_aspm/Display 4120 Banksia TCON and DRAM Bist Suite (Exit code: -1)"
+    ],
+    "C02WC00CJX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC005JX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00CJH8Y": [
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC002JX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC005JX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC00RJX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "coordinated_sleep_S0i/Wait for ARM to sleep/26 (Exit code: 3)",
+        "coordinated_sleep_S0i/Transition Intel into S0i/26 (Exit code: -2)"
+    ],
+    "C02WC00DJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP05 (Exit code: 1)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)",
+        "coordinated_sleep_S3/Transition Intel into S3/20 (Exit code: -2)",
+        "coordinated_sleep_S3/Wait for ARM to sleep/20 (Exit code: -2)",
+        "No Flint"
+    ],
+    "C02WC00CJX1N": [
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC00HJX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "No Flint"
+    ],
+    "C02WC00RJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00JJX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00MJX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00LJX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)"
+    ],
+    "C02WC002JX10": [
+        "Hang Black Screen",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "coordinated_sleep_S0i/Wait for ARM to sleep1 (Exit code: 3)",
+        "coordinated_sleep_S0i/Transition Intel into S0i1 (Exit code: -2)"
+    ],
+    "C02WC00EJX1N": [
+        "Hang Black Screen",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC00EJX10": [
+        "Hang Black Screen"
+    ],
+    "C02WC00QJX10": [
+        "Hang Black Screen",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00PJX10": [
+        "Hang Black Screen"
+    ],
+    "C02WC00GJX10": [
+        "Hang Black Screen"
+    ],
+    "C02WC00GJTDP": [
+        "Hang Black Screen",
+        "display_test_no_aspm/Display 4120 Banksia TCON and DRAM Bist Suite (Exit code: -1)"
+    ],
+    "C02WC00KJX10": [
+        "Hang Black Screen"
+    ],
+    "C02WC004JH8Y": [
+        "Hang Black Screen",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC00QJTDP": [
+        "Hang Black Screen"
+    ],
+    "C02WC00HJTDP": [
+        "No Flint",
+        "coordinated_sleep_S3/Transition Intel into S3/21 (Exit code: -2)",
+        "coordinated_sleep_S3/Wait for ARM to sleep/21 (Exit code: 3)"
+    ],
+    "C02WC007JH8Y": [
+        "No Flint",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00VJX1N": [
+        "No Flint",
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC00BJTDP": [
+        "No Flint",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00DJH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00NJX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00JJTDP": [
+        "display_test_no_aspm/Display 4120 Banksia TCON and DRAM Bist Suite (Exit code: -1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00AJX10": [
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC002JH8Y": [
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00DJX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00BJX1N": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC003JX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00AJTGJ": [
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "tapp/System 8000 TAPP Power (Exit code: -994)"
+    ],
+    "C02WC00SJH9D": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "Wildfire/BatteryFullyChargedTest/Iteration 1 (Exit code: 1)",
+        "Wildfire/BatteryVoltageImbalancedTest/Iteration 1 (Exit code: 1)",
+        "Wildfire/BatteryVoltageImbalancedTest: StateOfCharge/Iteration 1 (Exit code: 1)",
+        "Wildfire/BatteryFullyChargedTest: StateOfCharge/Iteration 1 (Exit code: 1)"
+    ],
+    "C02WC00JJTGJ": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 0 (Exit code: 1)",
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP05 (Exit code: 1)"
+    ],
+    "C02WC005JTDR": [
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)",
+        "Wildfire/BatteryFullyChargedTest/Iteration 1 (Exit code: 1)",
+        "Wildfire/BatteryVoltageImbalancedTest/Iteration 1 (Exit code: 1)",
+        "Wildfire/BatteryVoltageImbalancedTest: StateOfCharge/Iteration 1 (Exit code: 1)",
+        "Wildfire/BatteryFullyChargedTest: StateOfCharge/Iteration 1 (Exit code: 1)"
+    ],
+    "C02WC00UJTDR": [
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "Wildfire/BatteryFullyChargedTest/Iteration 1 (Exit code: 1)",
+        "Wildfire/BatteryVoltageImbalancedTest/Iteration 1 (Exit code: 1)",
+        "Wildfire/BatteryVoltageImbalancedTest: StateOfCharge/Iteration 1 (Exit code: 1)",
+        "Wildfire/BatteryFullyChargedTest: StateOfCharge/Iteration 1 (Exit code: 1)"
+    ],
+    "C02WC002JTGJ": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "coordinated_sleep_G3S/Transition Intel into G3S5 (Exit code: -2)",
+        "coordinated_sleep_G3S/Wait for ARM to sleep5 (Exit code: 3)"
+    ],
+    "C02WC00CJTGJ": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00MJTDR": [
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)"
+    ],
+    "C02WC003JH9D": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00LJTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "link_width_tests/PCIe 2696 Link Width Test - RP13 (Exit code: 1)",
+        "link_width_tests/PCIe 2696 Link Width Test - Storage (Exit code: 1)"
+    ],
+    "C02WC008JTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00VJTDR": [
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC001JX1N": [
+        "display/BacklightController 4248 Fault Detection (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00NJTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "coordinated_sleep_S0i/Wait for ARM to sleep9 (Exit code: 3)",
+        "coordinated_sleep_S0i/Transition Intel into S0i0 (Exit code: -2)",
+        "coordinated_sleep_S0i/Wait for ARM to sleep0 (Exit code: -2)"
+    ],
+    "C02WC00EJTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00LJTGJ": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)"
+    ],
+    "C02WC00SJTGJ": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00BJH8Y": [
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 0 (Exit code: 1)",
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP05 (Exit code: 1)"
+    ],
+    "C02WC002JTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "intel_boot_checks/SMC 3204 Shutdown Cause Check (Exit code: 14)"
+    ],
+    "C02WC00FJX10": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00FJTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00QJTGJ": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC007JTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC009JTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC006JTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC001JH8Y": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00AJTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00CJTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00RJTDR": [
+        "display_test_no_aspm/Display 4120 Banksia TCON and DRAM Bist Suite (Exit code: -1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "coordinated_G3S_Wifi_TriggerWake/Wait for ARM to sleep/3 (Exit code: 3)",
+        "coordinated_G3S_Wifi_TriggerWake/Transition Intel into G3S/3 (Exit code: -2)"
+    ],
+    "C02WC00CJH9D": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00YJTDR": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)",
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit code: 1)"
+    ],
+    "C02WC00LJH8Y": [
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit code: 1)"
+    ],
+    "C02WC00FJTDP": [
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)"
+    ],
+    "C02WC00SJTDR": [
+        "link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit code: 1)",
+        "thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit code: 2)",
+        "link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit code: 1)",
+        "tapp/System 8000 TAPP Power (Exit code: 3)",
+        "coordinated_sleep_S0i/Wait for ARM to sleep/24 (Exit code: 3)",
+        "coordinated_sleep_G3S/Transition Intel into G3S/7 (Exit code: -2)",
+        "coordinated_sleep_G3S/Wait for ARM to sleep/7 (Exit code: -2)"
+    ]
+}

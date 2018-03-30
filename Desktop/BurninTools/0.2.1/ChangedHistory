@@ -1,0 +1,12 @@
+0.1.8 :
+    -  修复 Observation Report 输出的 Fail Rate 计算 0.00% 问题.
+0.1.9 :
+    -  添加功能 { Detail DTI Info } 收集信息写入txt文档中，存储位置为桌面，文件名以DTI命名.
+0.1.10:
+    -  更新 Yield Report 显示界面，新增 run-in 总时间显示.
+0.1.10a:
+    -  增加 run-in 总时间写入 info.txt 文件.    
+
+
+0.2.1 :
+    -      

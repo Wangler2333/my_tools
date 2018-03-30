@@ -1,0 +1,2 @@
+# Test Action Result,PDCA Key,Test Number,Name,Retry,Iteration,Iteration Retry,Action Number,Command,domain,Status Code,Action Retry,Ignored,Start Time,End Time,Time Elapsed,Failure Message (optional),Test Path
+FAIL,tapp/System 8000 TAPP Power/1,1,System 8000 TAPP Power,0,0,0,0,"""(null)""",(null),3,0,0,2018-03-12 16:35:38,2018-03-12 17:15:56,00:40:17,Test returned unknown error code: 3,

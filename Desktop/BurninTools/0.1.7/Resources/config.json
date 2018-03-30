@@ -1,0 +1,84 @@
+{
+    "function": {
+        "Observation": {
+            "collection log": false,
+            "default": true
+        },
+        "Yield Report": {
+            "collection log": true,
+            "default": false
+        },
+        "Log Collection": {
+            "collection log": false,
+            "default": false
+        },
+        "Observation Report": {
+            "collection log": false,
+            "default": false
+        },
+        "Detail DTI Info": {
+            "collection log": false,
+            "default": false
+        }
+    },
+    "process": {
+        "Log Path": {
+            "default": false,
+            "set path": "/Users/saseny/Desktop/_......"
+        },
+        "DTI Read": {
+            "file path": "/",
+            "file name": "release_notes.html",
+            "read rule": "(J132_EVT_\\d+.+)"
+        },
+        "Serial Number": {
+            "command": "system_profiler SPHardwareDataType",
+            "read rule": "C02[A-Z].{8}"
+        },
+        "gOS Files": {
+            "failures.csv": true,
+            "summary.csv": false
+        },
+        "MacOS Files": [],
+        "Special Request": [
+            "2696",
+            "2697"
+        ],
+        "Excel Read": {
+            "file name": "Error_Code.xlsx",
+            "sheet name": "Error Codes",
+            "location": {
+                "code": 2,
+                "error": 4
+            },
+            "station": [
+                "Run-in",
+                "Log collection"
+            ]
+        },
+        "failure read": {
+            "replace": "/1",
+            "combination": {
+                "name": 1,
+                "states": 10
+            },
+            "Fail Keys": [
+                "FAIL",
+                "TIMEOUT"
+            ]
+        },
+        "Unit Number": {
+            "file name": "Units_Info.xlsx",
+            "sheet name": "units",
+            "location": {
+                "serial number": 0,
+                "unit number": 1,
+                "config info": 2
+            }
+        },
+        "exception": {
+            "default": false,
+            "list": []
+        }
+    }
+}

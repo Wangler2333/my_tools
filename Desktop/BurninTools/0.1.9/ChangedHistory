@@ -1,0 +1,2 @@
+0.1.8 :
+    -  修复 Observation Report 输出的 Fail Rate 计算 0.00% 问题.

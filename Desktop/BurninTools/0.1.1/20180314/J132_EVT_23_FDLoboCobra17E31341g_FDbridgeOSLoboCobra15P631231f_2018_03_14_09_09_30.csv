@@ -1,0 +1,33 @@
+No.,Failure,Fail Rate,Units Info
+1,Wildfire/BatteryFullyChargedTest: StateOfCharge/Iteration 1 (Exit Code: 1),2.54%,"['641', '671', '618']"
+2,Wildfire/BatteryVoltageImbalancedTest/Iteration 1 (Exit Code: 1),2.54%,"['641', '671', '618']"
+3,Wildfire/BatteryVoltageImbalancedTest: StateOfCharge/Iteration 1 (Exit Code: 1),2.54%,"['641', '671', '618']"
+4,Wildfire/BatteryFullyChargedTest/Iteration 1 (Exit Code: 1),2.54%,"['641', '671', '618']"
+5,tapp/System 8000 TAPP Power (Exit Code: 3),35.589999999999996%,"['622', '479', '657', '638', '729', '628', '620', '721', '711', '733', '645', '727', '459', '642', '597', 'C02W800LJTVV', '625', '573', '623', '615', '586', '633', '648', 'C02W800JJTVV', '639', '619', '376', '526', '523', '635', 'C02WC001JH8Y', '671', '576', '535', '621', 'C02WC001JX1N', '627', '735', '594', '528', '396', '634']"
+6,thermalinterface/ThermalInterface 3664 DTS Accuracy Test (Exit Code: 2),42.370000000000005%,"['622', '479', '657', '638', '492', '719', '628', '620', '721', '711', '733', '641', '645', '727', '459', '509', 'C02W800LJTVV', '542', '537', '573', '625', '623', '615', '586', '648', 'C02W800JJTVV', '639', '471', '619', '526', '523', '635', 'C02WC001JH8Y', '671', '576', '535', '621', '558', 'C02WC001JX1N', '474', '515', '627', '735', '594', '374', '549', '528', '396', '540', '618']"
+7,coordinated_sleep_G3S/Wait for ARM to sleep/7 (Exit Code: -2),0.8500000000000001%,['639']
+8,link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP09 (Exit Code: 1),4.24%,"['618 <E16110-19>', '523 <E16181-17>', '634 <E16111-13>', '639', '645 <E16116-16>']"
+9,coordinated_sleep_G3S/Transition Intel into G3S/7 (Exit Code: -2),0.8500000000000001%,['639']
+10,coordinated_sleep_S0i/Wait for ARM to sleep/24 (Exit Code: 3),0.8500000000000001%,['639']
+11,link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 1 (Exit Code: 1),3.39%,"['618 <E16110-19>', '645 <E16116-16>', '639', '634 <E16111-13>']"
+12,intel_boot_checks/SMC 3204 Shutdown Cause Check (Exit Code: 14),0.8500000000000001%,['615']
+13,display_test_no_aspm/Display 4120 Banksia TCON and DRAM Bist Suite (Exit Code: -1),2.54%,"['638', '574', '576']"
+14,coordinated_G3S_Wifi_TriggerWake/Wait for ARM to sleep/3 (Exit Code: 3),0.8500000000000001%,['638']
+15,coordinated_G3S_Wifi_TriggerWake/Transition Intel into G3S/3 (Exit Code: -2),0.8500000000000001%,['638']
+16,MacEFITests/Display 8118 Power Up MCU operation Diag Test (Exit Code: 1),15.25%,"['479', '459', '586', '558', 'C02WC001JX1N', '474', '597', 'C02W800JJTVV', '492', '542', '481', '471', '594', '549', '509', 'C02W800LJTVV', '540', 'C02WC001JH8Y']"
+17,display/BacklightController 4248 Fault Detection (Exit Code: 1),5.08%,"['479', '586', 'C02WC001JX1N', '492', '481', '509']"
+18,link_width_tests/PCIe 2696 Link Width Test - pciRootPort RP05 (Exit Code: 1),1.69%,"['727', '549 <E16119-13>']"
+19,link_width_tests/PCIe 2696 Link Width Test - ThunderboltController 0 (Exit Code: 1),1.69%,"['727', '549 <E16119-13>']"
+20,coordinated_sleep_G3S/Wait for ARM to sleep5 (Exit Code: 3),0.8500000000000001%,['711']
+21,coordinated_sleep_G3S/Transition Intel into G3S5 (Exit Code: -2),0.8500000000000001%,['711']
+22,tapp/System 8000 TAPP Power (Exit Code: -994),0.8500000000000001%,['719']
+23,nand_component/Storage 3559 NVMe Debug Log 4 Check (Exit Code: -3),0.8500000000000001%,['C02W800HJTVV']
+24,coordinated_sleep_S0i/Wait for ARM to sleep1 (Exit Code: 3),0.8500000000000001%,['515']
+25,coordinated_sleep_S0i/Transition Intel into S0i1 (Exit Code: -2),0.8500000000000001%,['515']
+26,link_width_tests/PCIe 2696 Link Width Test - RP13 (Exit Code: 1),0.8500000000000001%,['633']
+27,link_width_tests/PCIe 2696 Link Width Test - Storage (Exit Code: 1),0.8500000000000001%,['633']
+28,coordinated_sleep_S0i/Transition Intel into S0i0 (Exit Code: -2),0.8500000000000001%,['635']
+29,coordinated_sleep_S0i/Wait for ARM to sleep0 (Exit Code: -2),0.8500000000000001%,['635']
+30,coordinated_sleep_S0i/Wait for ARM to sleep9 (Exit Code: 3),0.8500000000000001%,['635']
+31,nand_component/Storage 3559 NVMe Debug Log 4 Check (Exit Code: 1),0.8500000000000001%,['474']
+32,nand_component/Storage 8049 GBB Count Check (Exit Code: 1),0.8500000000000001%,['474']

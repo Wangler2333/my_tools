@@ -1,0 +1,4 @@
+# Test Action Result,PDCA Key,Test Number,Name,Retry,Iteration,Iteration Retry,Action Number,Command,domain,Status Code,Action Retry,Ignored,Start Time,End Time,Time Elapsed,Failure Message (optional),Test Path
+FAIL,thermalinterface/ThermalInterface 3664 DTS Accuracy Test/1,1,ThermalInterface 3664 DTS Accuracy Test,0,0,0,0,"""(null)""",(null),2,0,0,2018-03-12 16:04:21,2018-03-12 16:19:22,00:15:00,Exceeded Temperature Threshold,
+FAIL,tapp/System 8000 TAPP Power/1,2,System 8000 TAPP Power,0,0,0,0,"""(null)""",(null),3,0,0,2018-03-12 19:32:03,2018-03-12 20:12:20,00:40:17,Test returned unknown error code: 3,
+FAIL,MacEFITests/Display 8118 Power Up MCU operation Diag Test,3,Earthbound,0,0,0,0,"""XPC_PDCAImport""",(null),1,0,0,2018-03-13 07:38:43,2018-03-13 07:38:43,00:00:00,Monterey Image Subtest Failed,
