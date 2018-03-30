@@ -1,0 +1,37 @@
+{
+  "download": {
+    "cmd link": "running.sh",
+    "file key": "Restore",
+    "suffix": ".xls"
+  },
+  "product_info": {
+    "J79A": [
+      "F6-1FT-D16",
+      "F6-1FT-C16",
+      "F6-2FT-F16",
+      "F6-2FT-G16"
+    ],
+    "J80A": [
+      "F6-2FT-I16",
+      "F6-2FT-H16",
+      "F6-2FT-J16"
+    ]
+  },
+  "cycle_setup": {
+    "run": true,
+    "time": 86400,
+    "times": 10000
+  },
+  "user_info": {
+    "user name": "",
+    "pass word": ""
+  },
+  "external command": {
+    "run": true,
+    "command name": "",
+    "command path": "",
+    "command usage": ""
+  },
+  "auto_path": "",
+  "retry times":3
+}

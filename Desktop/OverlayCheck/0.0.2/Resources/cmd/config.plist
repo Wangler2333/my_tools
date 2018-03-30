@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app</key>
+	<string>/Applications/Safari.app</string>
+	<key>delay</key>
+	<integer>3</integer>
+	<key>info</key>
+	<dict>
+		<key>ip</key>
+		<string>https://172.24.70.50/groundhog/index.php</string>
+		<key>password</key>
+		<string>for79gh</string>
+		<key>quit delay</key>
+		<integer>20</integer>
+		<key>username</key>
+		<string>J79_TE</string>
+	</dict>
+	<key>request</key>
+	<dict>
+		<key>my_location</key>
+		<dict>
+			<key>create</key>
+			<array>
+				<integer>128</integer>
+				<integer>34</integer>
+			</array>
+			<key>default</key>
+			<array>
+				<integer>676</integer>
+				<integer>291</integer>
+			</array>
+			<key>download</key>
+			<array>
+				<integer>1433</integer>
+				<integer>164</integer>
+			</array>
+			<key>ip_input</key>
+			<array>
+				<integer>865</integer>
+				<integer>37</integer>
+			</array>
+			<key>login</key>
+			<array>
+				<integer>1015</integer>
+				<integer>680</integer>
+			</array>
+			<key>new_window</key>
+			<array>
+				<integer>124</integer>
+				<integer>5</integer>
+			</array>
+			<key>report</key>
+			<array>
+				<integer>510</integer>
+				<integer>73</integer>
+			</array>
+			<key>restore report</key>
+			<array>
+				<integer>531</integer>
+				<integer>292</integer>
+			</array>
+			<key>user_input</key>
+			<array>
+				<integer>1694</integer>
+				<integer>74</integer>
+			</array>
+			<key>username</key>
+			<array>
+				<integer>964</integer>
+				<integer>574</integer>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
