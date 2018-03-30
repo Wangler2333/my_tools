@@ -1,0 +1,325 @@
+{
+    "url": "https://manufacturing.apple.com/",
+    "product-station-command": {
+        "J79A": {
+            "FACT": {
+                "cmd-link": "command/FACT/FACT_FATP_Audit_V1.29.py",
+                "config": "command/FACT/FACT_config.json",
+                "download": {
+                    "special project name": {
+                        "whether": false,
+                        "changed": ""
+                    },
+                    "station_type": "FACT",
+                    "station_version": [
+                        "1.14.51v041 - Audit"
+                    ],
+                    "key word": "FACT",
+                    "summary key": "FACT",
+                    "result_file": ".csv",
+                    "frequency": "weekly",
+                    "radar number": "32173240",
+                    "form_start_time": 9,
+                    "special": false,
+                    "special sn list": []
+                }
+            },
+            "BUTTON": {
+                "cmd-link": "command/BUTTON/Button_audit.py",
+                "config": "command/BUTTON/config.json",
+                "download": {}
+            },
+            "WiFi-BT-OTA": {
+                "cmd-link": "command/WiPAS/QSMC_J130A_J79A_J80A_Wipas_FATP_Audit_V1.14.py",
+                "config": "command/WiPAS/FATP_Wipas_config.json",
+                "download": {}
+            },
+            "COEX": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "RGBW": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Flicker": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "LL": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Fos": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Grape": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            }
+        },
+        "J80A": {
+            "FACT": {
+                "cmd-link": "command/FACT/FACT_FATP_Audit_V1.29.py",
+                "config": "command/FACT/FACT_config.json",
+                "download": {
+                    "special project name": {
+                        "whether": false,
+                        "changed": ""
+                    },
+                    "station_type": "FACT",
+                    "station_version": [
+                        "1.14.51v041 - Audit"
+                    ],
+                    "key word": "FACT",
+                    "summary key": "FACT",
+                    "result_file": ".csv",
+                    "frequency": "weekly",
+                    "radar number": "32173240",
+                    "form_start_time": 9,
+                    "special": false,
+                    "special sn list": []
+                }
+            },
+            "BUTTON": {
+                "cmd-link": "command/BUTTON/Button_audit.py",
+                "config": "command/BUTTON/config.json",
+                "download": {}
+            },
+            "WiFi-BT-OTA": {
+                "cmd-link": "command/WiPAS/QSMC_J130A_J79A_J80A_Wipas_FATP_Audit_V1.14.py",
+                "config": "command/WiPAS/FATP_Wipas_config.json",
+                "download": {}
+            },
+            "COEX": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "RGBW": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Flicker": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "LL": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Fos": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Grape": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            }
+        },
+        "J132": {
+            "FACT": {
+                "cmd-link": "command/FACT/FACT_FATP_Audit_V1.29.py",
+                "config": "command/FACT/FACT_config.json",
+                "download": {
+                    "special project name": {
+                        "whether": false,
+                        "changed": ""
+                    },
+                    "station_type": "FACT",
+                    "station_version": [
+                        "1.14.51v041 - Audit"
+                    ],
+                    "key word": "FACT",
+                    "summary key": "FACT",
+                    "result_file": ".csv",
+                    "frequency": "weekly",
+                    "radar number": "32173240",
+                    "form_start_time": 9,
+                    "special": false,
+                    "special sn list": []
+                }
+            },
+            "BUTTON": {
+                "cmd-link": "command/BUTTON/Button_audit.py",
+                "config": "command/BUTTON/config.json",
+                "download": {}
+            },
+            "WiFi-BT-OTA": {
+                "cmd-link": "command/WiPAS/QSMC_J130A_J79A_J80A_Wipas_FATP_Audit_V1.14.py",
+                "config": "command/WiPAS/FATP_Wipas_config.json",
+                "download": {}
+            },
+            "COEX": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "RGBW": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Flicker": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "LL": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Fos": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Grape": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            }
+        },
+        "J680": {
+            "FACT": {
+                "cmd-link": "command/FACT/FACT_FATP_Audit_V1.29.py",
+                "config": "command/FACT/FACT_config.json",
+                "download": {
+                    "special project name": {
+                        "whether": false,
+                        "changed": ""
+                    },
+                    "station_type": "FACT",
+                    "station_version": [
+                        "1.14.51v041 - Audit"
+                    ],
+                    "key word": "FACT",
+                    "summary key": "FACT",
+                    "result_file": ".csv",
+                    "frequency": "weekly",
+                    "radar number": "32173240",
+                    "form_start_time": 9,
+                    "special": false,
+                    "special sn list": []
+                }
+            },
+            "BUTTON": {
+                "cmd-link": "command/BUTTON/Button_audit.py",
+                "config": "command/BUTTON/config.json",
+                "download": {}
+            },
+            "WiFi-BT-OTA": {
+                "cmd-link": "command/WiPAS/QSMC_J130A_J79A_J80A_Wipas_FATP_Audit_V1.14.py",
+                "config": "command/WiPAS/FATP_Wipas_config.json",
+                "download": {}
+            },
+            "COEX": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "RGBW": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Flicker": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "LL": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Fos": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Grape": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            }
+        },
+        "J140": {
+            "FACT": {
+                "cmd-link": "command/FACT/FACT_FATP_Audit_V1.29.py",
+                "config": "command/FACT/FACT_config.json",
+                "download": {
+                    "special project name": {
+                        "whether": false,
+                        "changed": ""
+                    },
+                    "station_type": "FACT",
+                    "station_version": [
+                        "1.14.51v041 - Audit"
+                    ],
+                    "key word": "FACT",
+                    "summary key": "FACT",
+                    "result_file": ".csv",
+                    "frequency": "weekly",
+                    "radar number": "32173240",
+                    "form_start_time": 9,
+                    "special": false,
+                    "special sn list": []
+                }
+            },
+            "BUTTON": {
+                "cmd-link": "command/BUTTON/Button_audit.py",
+                "config": "command/BUTTON/config.json",
+                "download": {}
+            },
+            "WiFi-BT-OTA": {
+                "cmd-link": "command/WiPAS/QSMC_J130A_J79A_J80A_Wipas_FATP_Audit_V1.14.py",
+                "config": "command/WiPAS/FATP_Wipas_config.json",
+                "download": {}
+            },
+            "COEX": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "RGBW": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Flicker": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "LL": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Fos": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            },
+            "Grape": {
+                "cmd-link": "",
+                "config": "",
+                "download": {}
+            }
+        }
+    }
+}

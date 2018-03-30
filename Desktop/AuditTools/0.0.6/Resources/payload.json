@@ -1,0 +1,47 @@
+{
+    "siteName": [
+        "QSMC"
+    ],
+    "auditOnly": "Y",
+    "parametricType": [
+        {
+            "stationType": "null",
+            "overlayVersion": [
+                "null"
+            ],
+            "limitsVersion": [],
+            "selectAll": true
+        }
+    ],
+    "dataCategory": [
+        "pdata"
+    ],
+    "requestedColumns": [
+        "siteName",
+        "productCode",
+        "serialNumber",
+        "specialBuildName",
+        "specialBuildDescription",
+        "unitNumber",
+        "stationId",
+        "testResult",
+        "startTestTime",
+        "endTestTime",
+        "overlayVersion",
+        "listOfFailingTests"
+    ],
+    "testCategory": [
+        "All"
+    ],
+    "passFailCategory": [
+        "All"
+    ],
+    "nullIncluded": "N",
+    "samplePercent": "100",
+    "startTime": "null",
+    "endTime": "null",
+    "frequency": "now",
+    "productCode": [
+        "null"
+    ]
+}
